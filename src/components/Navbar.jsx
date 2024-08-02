@@ -7,42 +7,30 @@ const Navbar = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg bg-dark bg-gradient position-fixed z-1"
+        className="navbar navbar-expand-lg bg-dark bg-gradient position-fixed z-1 shadow-lg"
         style={{ width: "100%" }}
       >
-        <div className="container shadow-lg">
+        <div className="container">
           <Logo />
-          <button
-            className="navbar-toggler "
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li className="nav-item">
-                <Link className="nav-link" to="/">
-                  Home
-                </Link>
-              </li>
+            <li class="nav-item">
+          <Link class="nav-link active" aria-current="page" to="/">Home</Link>
+        </li>
               <li className="nav-item">
                 <Link className="nav-link" to="/project">
                   Project
                 </Link>
               </li>
             </ul>
-            <div className="flex">
-              <div className="">
-                <Link className="text-white" to="#contact">
-                  <FaPenNib className="inline-block" /> Contact
-                </Link>
-              </div>
-            </div>
+            <li className="nav-item">
+                <a className="nav-link" href="#contact">
+                <FaPenNib className="inline-block" /> Contact
+                </a>
+              </li>
           </div>
         </div>
       </nav>
