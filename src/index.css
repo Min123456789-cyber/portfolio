@@ -8,7 +8,7 @@
     max-width: 800px;
     margin: 0 auto;
 }
-li{
+.skill li{
     list-style: none;
     border: 1px solid black;
     display: inline-block;

@@ -13,7 +13,7 @@ const Skills = () => {
                     <IoStarHalf className="my-3 fs-1 border p-2 rounded bg-body-tertiary"/>
                     <h3 className='text-xl font-medium pb-4'>The skills necessary for Web Development...</h3>
                     <hr />
-                    <div className='gap-4'>
+                    <div className='skill gap-4'>
                       <h1 className='text-xl py-3'>Programming Language</h1>
                       <li><BiCheck style={{display:"inline-block"}}/>c#</li>
                       <hr />

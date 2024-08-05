@@ -8,15 +8,15 @@ const About = () => {
       <div className="m-4">
         <div className="container">
           <div>
-            <h5 className="fs-2 py-4 font-medium underline">About Me</h5>
+            <h5 className="fs-2 py-4">About Me</h5>
           </div>
-          <div className="row mb-3">
-            <div className="col-lg-4 mb-">
-              <img src={HeroImg} className="img-fluid" alt="MyImage" />
+          <div className="row">
+            <div className="col-lg-4 mb-3">
+              <img src={HeroImg} className="img-fluid rounded" alt="MyImage" />
             </div>
-            <div className="col-lg-8 border roundedp-2">
+            <div className="col-lg-8 border mb-3 rounded p-4">
               <RiContactsFill className="my-3 fs-1 border p-2 rounded bg-body-tertiary"/>
-              <p className="text-align-justify">
+              <p className="align-text-justify">
                 As a passionate and versatile full-stack developer, I bring a
                 wealth of expertise in both front-end and back-end technologies
                 to create seamless and efficient web applications. With a strong
@@ -26,7 +26,6 @@ const About = () => {
                 for back-end development allows me to develop robust, scalable,
                 and secure applications.
               </p>
-              <br />
               <p className="text-md">
                 I am adept at utilizing modern frameworks and libraries,
                 ensuring the delivery of high-quality, full-fledged solutions.
