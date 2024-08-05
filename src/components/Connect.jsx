@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./Logo";
+import Logo from '../assets/logo.png'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaSquareInstagram } from "react-icons/fa6";
@@ -8,7 +8,7 @@ const Connect = () => {
   return (
     <div className="container">
       <div className="d-flex flex-column justify-content-center align-items-center">
-        <Logo />
+        <img src={Logo} style={{width: "50px", height: "50px"}} className="m-3" alt="Logo" />
         <h2 className="text-center">
           Feel Free <br /> to check on Me!
         </h2>

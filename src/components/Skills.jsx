@@ -7,7 +7,7 @@ const Skills = () => {
     <>
       <div className='m-4'>
         <div className='container'>
-            <h5 className='py-4 fs-1'>Skills</h5>
+            <h5 className='py-4 fs-2'>Skills</h5>
             <div className='row border rounded'>
                 <div className='col-lg-12'>
                     <IoStarHalf className="my-3 fs-1 border p-2 rounded bg-body-tertiary"/>
