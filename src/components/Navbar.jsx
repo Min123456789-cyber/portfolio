@@ -6,7 +6,7 @@ import { FaPenNib } from "react-icons/fa";
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav className="navbar navbar-expand-lg bg-body-tertiary position-fixed z-1" style={{width: "100%"}}>
         <div className="container">
           <Logo />
           <button

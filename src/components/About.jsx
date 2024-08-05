@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div className="col-lg-8 border mb-3 rounded p-4">
               <RiContactsFill className="my-3 fs-1 border p-2 rounded bg-body-tertiary"/>
-              <p className="align-text-justify">
+              <p style={{textAlign: "justify"}}>
                 As a passionate and versatile full-stack developer, I bring a
                 wealth of expertise in both front-end and back-end technologies
                 to create seamless and efficient web applications. With a strong
@@ -26,7 +26,7 @@ const About = () => {
                 for back-end development allows me to develop robust, scalable,
                 and secure applications.
               </p>
-              <p className="text-md">
+              <p style={{textAlign: "justify"}}>
                 I am adept at utilizing modern frameworks and libraries,
                 ensuring the delivery of high-quality, full-fledged solutions.
                 My commitment to continuous learning and staying updated with

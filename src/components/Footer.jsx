@@ -12,7 +12,7 @@ const Footer = () => {
         <IoIosArrowUp
           onClick={() => top()}
           className="fs-1 position-absolute bg-dark bg-gradient rounded text-white p-1"
-          style={{ right: "0" }}
+          style={{ right: "0", cursor: "pointer" }}
         />
       <div className="d-flex flex-column justify-content-center align-items-center bg-body-tertiary">
         <LogoPic />
