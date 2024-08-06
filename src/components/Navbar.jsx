@@ -1,9 +1,10 @@
 import React from "react";
 import Logo from "./Logo";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { FaPenNib } from "react-icons/fa";
 
 const Navbar = () => {
+
   return (
     <>
       <nav className="navbar navbar-expand-lg bg-body-tertiary position-fixed z-1" style={{width: "100%"}}>
@@ -21,22 +22,22 @@ const Navbar = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <Link class="nav-link active fs-4" aria-current="page" to="/">
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li className="nav-item">
+                <NavLink className="nav-link fs-4" aria-current="page" to="/">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <Link className="nav-link fs-4" to="/project">
+                <NavLink className="nav-link fs-4" to="/project">
                   Project
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <li className="nav-item text-bg-info rounded">
-              <a className="nav-link fs-4 p-2" href="#contact">
+              <NavLink className="nav-link fs-4 p-2" to="mailto: meen.gurung333@gmail.com ">
                 <FaPenNib/> Contact
-              </a>
+              </NavLink>
             </li>
           </div>
         </div>
