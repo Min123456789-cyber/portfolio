@@ -7,8 +7,8 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary position-fixed z-1" style={{width: "100%"}}>
-        <div className="container">
+      <nav className="navbar navbar-expand-lg bg-light shadow position-fixed z-1" style={{width: "100%"}}>
+        <div className="container border rounded mt-3">
           <Logo />
           <button
             className="navbar-toggler"
