@@ -24,19 +24,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <NavLink className="nav-link fs-4" aria-current="page" to="/">
+                <NavLink className="nav-link fs-5" aria-current="page" to="/">
                   Home
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link fs-4" to="/project">
+                <NavLink className="nav-link fs-5" to="/project">
                   Project
                 </NavLink>
               </li>
             </ul>
             <li className="nav-item text-bg-info rounded">
-              <NavLink className="nav-link fs-4 p-2" to="mailto: meen.gurung333@gmail.com ">
-                <FaPenNib/> Contact
+              <NavLink className="nav-link fs-6 p-2" to="mailto: meen.gurung333@gmail.com ">
+                <FaPenNib className="fs-6"/> Contact
               </NavLink>
             </li>
           </div>
