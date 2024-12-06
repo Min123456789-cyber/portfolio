@@ -34,7 +34,7 @@ const Navbar = () => {
                 </NavLink>
               </li>
             </ul>
-            <li className="nav-item text-bg-info rounded">
+            <li className="nav-item text-bg-info rounded me-3">
               <NavLink className="nav-link fs-6 p-2" to="mailto: meen.gurung333@gmail.com ">
                 <FaPenNib className="fs-6"/> Contact
               </NavLink>
