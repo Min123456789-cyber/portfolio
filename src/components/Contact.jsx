@@ -37,10 +37,10 @@ const Contact = () => {
           <MdConnectWithoutContact className="my-3 fs-1 border p-2 rounded bg-body-tertiary" />
         </div>
         <form onSubmit={onSubmit}>
-          <h2 className="text-center p-3">Get In Touch</h2>
+          <h2 className="text-center fs-4 pt-1">Get In Touch</h2>
           <p className="text-center pb-3">Let's have interesting talk about Carrier Building.</p>
           <hr />
-          <div className="d-flex flex-column p-4">
+          <div className="d-flex flex-column p-2">
             <label>Full Name</label>
             <input
               type="text"
@@ -49,7 +49,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="d-flex flex-column p-4">
+          <div className="d-flex flex-column p-2">
             <label htmlFor="">Email</label>
             <input
               type="email"
@@ -58,7 +58,7 @@ const Contact = () => {
               required
             />
           </div>
-          <div className="d-flex flex-column p-4">
+          <div className="d-flex flex-column p-2">
             <label htmlFor="">Message</label>
             <textarea
               name="message"
@@ -66,7 +66,7 @@ const Contact = () => {
               required
             ></textarea>
           </div>
-          <div className="d-flex justify-content-center mb-4">
+          <div className="d-flex justify-content-center m-4">
             <button
               type="submit" className="shadow-inner-hover"
             >

@@ -11,13 +11,13 @@ const Skills = () => {
             <div className='row border rounded'>
                 <div className='col-lg-12'>
                     <IoStarHalf className="my-3 fs-1 border p-2 rounded bg-body-tertiary"/>
-                    <h3 className='text-xl font-medium pb-4'>The skills necessary for Web Development...</h3>
+                    <h3 className='fs-4 pb-2'>The skills necessary for Web Development...</h3>
                     <hr />
                     <div className='skill gap-4'>
-                      <h1 className='text-xl py-3'>Programming Language</h1>
+                      <h1 className='fs-3 py-1'>Programming Language</h1>
                       <li><BiCheck style={{display:"inline-block"}}/>c#</li>
                       <hr />
-                      <h1 className='text-xl py-3'>Frameworks</h1>
+                      <h1 className='fs-3 py-1'>Frameworks</h1>
                       <li><BiCheck style={{display:"inline-block"}}/>asp.net</li>
                       <li><BiCheck style={{display:"inline-block"}}/>asp.net WebForms</li>
                       <li><BiCheck style={{display:"inline-block"}}/>asp.net core</li>
@@ -26,7 +26,7 @@ const Skills = () => {
                       <li><BiCheck style={{display:"inline-block"}}/>Bootstrap</li>
                       <li><BiCheck style={{display:"inline-block"}}/>Tailwind Css</li>
                       <hr />
-                      <h1 className='text-xl py-3'>Tools</h1>
+                      <h1 className='fs-3 pb-1'>Tools</h1>
                       <li><BiCheck style={{display:"inline-block"}}/>Git</li>
                       <li><BiCheck style={{display:"inline-block"}}/>GitHub</li>
                     </div>
