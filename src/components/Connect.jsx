@@ -9,7 +9,7 @@ const Connect = () => {
     <div className="container">
       <div className="d-flex flex-column justify-content-center align-items-center">
         <img src={Logo} style={{width: "50px", height: "50px"}} className="m-3" alt="Logo" />
-        <h2 className="text-center">
+        <h2 className="text-center fs-3">
           Feel Free <br /> to check on Me!
         </h2>
         <div className="fs-1 d-flex pointer gap-4 m-3">
